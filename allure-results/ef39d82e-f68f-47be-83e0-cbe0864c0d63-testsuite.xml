@@ -1,0 +1,112 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621107658974' stop='1621107659066'>
+    <name>Test the login functionality on Login App: Login with correct credentials</name>
+    <title>Test the login functionality on Login App: Login with correct credentials</title>
+    <test-cases>
+        <test-case start='1621107658977' status='passed' stop='1621107658981'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621107658983' status='passed' stop='1621107659017'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps>
+                <step start='1621107658988' status='undefined'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1621107659018' status='broken' stop='1621107659054'>
+            <name>When I login with "user123" and "happycoder123"</name>
+            <title>When I login with "user123" and "happycoder123"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps>
+                <step start='1621107659024' status='broken' stop='1621107659052'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8de8b6ad-7ba5-46d8-9357-93321f1f0fc7-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: browser.$(...).setValue is not a function</message>
+                <stack-trace>TypeError: browser.$(...).setValue is not a function
+                    at World.&lt;anonymous> (E:\VS_Code_Project\TestSolution\step-definitions\/steps.js:43:38)
+                    at World.executeAsync (E:\VS_Code_Project\TestSolution\node_modules\@wdio\utils\build\shim.js:136:25)
+                    at World.testFrameworkFnWrapper (E:\VS_Code_Project\TestSolution\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621107659056' status='undefined'>
+            <name>Then I should see a message saying "Login Successfull"</name>
+            <title>Then I should see a message saying "Login Successfull"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621107659057' status='pending' stop='1621107659057'>
+            <name>I should see a message saying "Login Successfull"</name>
+            <title>I should see a message saying "Login Successfull"</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621107659058' status='passed' stop='1621107659065'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

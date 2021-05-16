@@ -1,0 +1,14 @@
+{
+    "name": "Cucumber",
+    "type": "node",
+    "request": "launch",
+    "console": "integratedTerminal",
+    "program": "${workspaceRoot}/node_modules/@cucumber/cucumber/bin/cucumber-js",
+    "args": [
+        "./step-definitions/*.ts",
+        "-r",
+        "./**/*.",
+        "--tags",
+        "@your-tags"
+    ]
+}

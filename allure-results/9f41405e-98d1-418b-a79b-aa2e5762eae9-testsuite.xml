@@ -1,0 +1,101 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621182479890' stop='1621182479913'>
+    <name>Test the login functionality on Login App: Login with correct credentials</name>
+    <title>Test the login functionality on Login App: Login with correct credentials</title>
+    <test-cases>
+        <test-case start='1621182479892' status='passed' stop='1621182479896'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621182479897' status='broken' stop='1621182479900'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I am on the login page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I am on the login page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(E:\VS_Code_Project\TestSolution\features\login.feature):1:1
+                	at Scenario(Login with correct credentials):6:3
+                	at Step(I am on the login page):7:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621182479902' status='broken' stop='1621182479903'>
+            <name>When I login with "user123" and "happycoder123"</name>
+            <title>When I login with "user123" and "happycoder123"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I login with "user123" and "happycoder123"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I login with "user123" and "happycoder123"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(E:\VS_Code_Project\TestSolution\features\login.feature):1:1
+                	at Scenario(Login with correct credentials):6:3
+                	at Step(I login with "user123" and "happycoder123"):8:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621182479904' status='broken' stop='1621182479907'>
+            <name>Then I should see a message saying "Login Successfull"</name>
+            <title>Then I should see a message saying "Login Successfull"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I should see a message saying "Login Successfull"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should see a message saying "Login Successfull"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(E:\VS_Code_Project\TestSolution\features\login.feature):1:1
+                	at Scenario(Login with correct credentials):6:3
+                	at Step(I should see a message saying "Login Successfull"):9:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621182479909' status='passed' stop='1621182479910'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
