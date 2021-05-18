@@ -1,0 +1,123 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621312945190' stop='1621312945206'>
+    <name>Test the login functionality on Login App: Login with Blank Username and Blank Password</name>
+    <title>Test the login functionality on Login App: Login with Blank Username and Blank Password</title>
+    <test-cases>
+        <test-case start='1621312945191' status='passed' stop='1621312945192'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621312945192' status='passed' stop='1621312945197'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621312945198' status='broken' stop='1621312945203'>
+            <name>When I login with "" and ""</name>
+            <title>When I login with "" and ""</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: this.inputUsername.setValue is not a function</message>
+                <stack-trace>TypeError: this.inputUsername.setValue is not a function
+                    at LoginPage.login (E:\VS_Code_Project\TestSolution\pageobjects\loginpage.ts:43:28)
+                    at World.&lt;anonymous> (E:\VS_Code_Project\TestSolution\step-definitions\steps.ts:16:13)
+                    at World.executeAsync (E:\VS_Code_Project\TestSolution\node_modules\@wdio\utils\build\shim.js:136:25)
+                    at World.testFrameworkFnWrapper (E:\VS_Code_Project\TestSolution\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621312945204' status='undefined'>
+            <name>Then I should see a message saying "Name cannot be blank" near Name field</name>
+            <title>Then I should see a message saying "Name cannot be blank" near Name field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621312945204' status='pending' stop='1621312945204'>
+            <name>I should see a message saying "Name cannot be blank" near Name field</name>
+            <title>I should see a message saying "Name cannot be blank" near Name field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621312945204' status='undefined'>
+            <name>Then I should see a message saying "Password cannot be blank" near Password field</name>
+            <title>Then I should see a message saying "Password cannot be blank" near Password field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621312945205' status='pending' stop='1621312945205'>
+            <name>I should see a message saying "Password cannot be blank" near Password field</name>
+            <title>I should see a message saying "Password cannot be blank" near Password field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621312945205' status='passed' stop='1621312945206'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

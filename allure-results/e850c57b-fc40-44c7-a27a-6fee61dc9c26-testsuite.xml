@@ -1,0 +1,181 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621312945313' stop='1621312945528'>
+    <name>Test the login functionality on Login App: Login with some Username and Password less than Eight characters</name>
+    <title>Test the login functionality on Login App: Login with some Username and Password less than Eight characters</title>
+    <test-cases>
+        <test-case start='1621312945313' status='passed' stop='1621312945314'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621312945314' status='passed' stop='1621312945320'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621312945349' status='broken' stop='1621312945439'>
+            <name>When I login with "user123" and "happy"</name>
+            <title>When I login with "user123" and "happy"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps>
+                <step start='1621312945395' status='broken' stop='1621312945439'>
+                    <name>getTitle</name>
+                    <title>getTitle</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621312945395' status='broken' stop='1621312945439'>
+                            <name>navigateTo</name>
+                            <title>navigateTo</title>
+                            <attachments>
+                                <attachment title='Request' source='1ec256ca-4c37-470d-9f02-d9db3639ea7b-attachment.json' type='application/json' size='66'/>
+                            </attachments>
+                            <steps>
+                                <step start='1621312945398' status='broken' stop='1621312945439'>
+                                    <name>findElement</name>
+                                    <title>findElement</title>
+                                    <attachments>
+                                        <attachment title='Request' source='f22de2db-77f8-49af-80cb-8e08fcfaf54f-attachment.json' type='application/json' size='58'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1621312945400' status='broken' stop='1621312945439'>
+                                            <name>getTitle</name>
+                                            <title>getTitle</title>
+                                            <attachments/>
+                                            <steps>
+                                                <step start='1621312945401' status='broken' stop='1621312945439'>
+                                                    <name>navigateTo</name>
+                                                    <title>navigateTo</title>
+                                                    <attachments>
+                                                        <attachment title='Request' source='27a94aeb-594f-4f15-b1f1-3923c60abd63-attachment.json' type='application/json' size='66'/>
+                                                    </attachments>
+                                                    <steps>
+                                                        <step start='1621312945406' status='broken' stop='1621312945439'>
+                                                            <name>findElement</name>
+                                                            <title>findElement</title>
+                                                            <attachments>
+                                                                <attachment title='Request' source='fec52ee0-fd74-4b9d-b00f-ced11eab17be-attachment.json' type='application/json' size='58'/>
+                                                            </attachments>
+                                                            <steps>
+                                                                <step start='1621312945434' status='broken' stop='1621312945439'>
+                                                                    <name>getTitle</name>
+                                                                    <title>getTitle</title>
+                                                                    <attachments/>
+                                                                    <steps>
+                                                                        <step start='1621312945435' status='broken' stop='1621312945439'>
+                                                                            <name>navigateTo</name>
+                                                                            <title>navigateTo</title>
+                                                                            <attachments>
+                                                                                <attachment title='Request' source='9ff228e2-9459-441f-8d66-8392df8b2bfa-attachment.json' type='application/json' size='66'/>
+                                                                            </attachments>
+                                                                            <steps/>
+                                                                        </step>
+                                                                    </steps>
+                                                                </step>
+                                                            </steps>
+                                                        </step>
+                                                    </steps>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: this.inputUsername.setValue is not a function</message>
+                <stack-trace>TypeError: this.inputUsername.setValue is not a function
+                    at LoginPage.login (E:\VS_Code_Project\TestSolution\pageobjects\loginpage.ts:43:28)
+                    at World.&lt;anonymous> (E:\VS_Code_Project\TestSolution\step-definitions\steps.ts:16:13)
+                    at World.executeAsync (E:\VS_Code_Project\TestSolution\node_modules\@wdio\utils\build\shim.js:136:25)
+                    at World.testFrameworkFnWrapper (E:\VS_Code_Project\TestSolution\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621312945440' status='undefined'>
+            <name>Then I should see a message saying "Password must be longer than 8 characters" near Password field</name>
+            <title>Then I should see a message saying "Password must be longer than 8 characters" near Password field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621312945440' status='pending' stop='1621312945440'>
+            <name>I should see a message saying "Password must be longer than 8 characters" near Password field</name>
+            <title>I should see a message saying "Password must be longer than 8 characters" near Password field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621312945440' status='passed' stop='1621312945527'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps>
+                <step start='1621312945442' status='undefined'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='140d8c01-2381-4f18-8ed9-55570282dfbe-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps>
+                        <step start='1621312945525' status='undefined'>
+                            <name>findElement</name>
+                            <title>findElement</title>
+                            <attachments>
+                                <attachment title='Request' source='04aafcfe-b921-4c7a-8b2b-decce0874042-attachment.json' type='application/json' size='58'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

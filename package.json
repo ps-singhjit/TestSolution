@@ -4,7 +4,7 @@
   "description": "test project",
   "main": "index.js",
   "scripts": {
-    "test": "./node_module/.bin/wdio wdio.conf.js"
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
   },
   "author": "Paramjit",
   "license": "ISC",

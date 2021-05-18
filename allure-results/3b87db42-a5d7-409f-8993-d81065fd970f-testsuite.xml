@@ -1,0 +1,122 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621312945570' stop='1621312945648'>
+    <name>Test the login functionality on Login App: Login with some Username and Password more than Fifteen characters</name>
+    <title>Test the login functionality on Login App: Login with some Username and Password more than Fifteen characters</title>
+    <test-cases>
+        <test-case start='1621312945581' status='passed' stop='1621312945582'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621312945583' status='passed' stop='1621312945591'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621312945592' status='broken' stop='1621312945615'>
+            <name>When I login with "user123" and "happycoder123123happycoder123"</name>
+            <title>When I login with "user123" and "happycoder123123happycoder123"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: this.inputUsername.setValue is not a function</message>
+                <stack-trace>TypeError: this.inputUsername.setValue is not a function
+                    at LoginPage.login (E:\VS_Code_Project\TestSolution\pageobjects\loginpage.ts:43:28)
+                    at World.&lt;anonymous> (E:\VS_Code_Project\TestSolution\step-definitions\steps.ts:16:13)
+                    at World.executeAsync (E:\VS_Code_Project\TestSolution\node_modules\@wdio\utils\build\shim.js:136:25)
+                    at World.testFrameworkFnWrapper (E:\VS_Code_Project\TestSolution\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621312945616' status='undefined'>
+            <name>Then I should see a message saying "Password must be shorter than 15 characters" near Password field</name>
+            <title>Then I should see a message saying "Password must be shorter than 15 characters" near Password field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621312945616' status='pending' stop='1621312945616'>
+            <name>I should see a message saying "Password must be shorter than 15 characters" near Password field</name>
+            <title>I should see a message saying "Password must be shorter than 15 characters" near Password field</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621312945618' status='passed' stop='1621312945648'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps>
+                <step start='1621312945631' status='undefined'>
+                    <name>getTitle</name>
+                    <title>getTitle</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1621312945631' status='undefined'>
+                            <name>navigateTo</name>
+                            <title>navigateTo</title>
+                            <attachments>
+                                <attachment title='Request' source='fd6f7ee3-a177-4bee-82cf-936e064a169f-attachment.json' type='application/json' size='66'/>
+                            </attachments>
+                            <steps>
+                                <step start='1621312945636' status='undefined'>
+                                    <name>findElement</name>
+                                    <title>findElement</title>
+                                    <attachments>
+                                        <attachment title='Request' source='0c24ac0c-1711-43cb-ba89-9c066c0a8c31-attachment.json' type='application/json' size='58'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
