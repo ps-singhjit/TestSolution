@@ -1,0 +1,31 @@
+[ {
+  "uid" : "608efc99ceb27b5b",
+  "name" : "Given I am on the login page",
+  "time" : {
+    "start" : 1621315729138,
+    "stop" : 1621315729168,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de50397a342a2113",
+  "name" : "When I login with \"user123\" and \"happycoder123\"",
+  "time" : {
+    "start" : 1621315642514,
+    "stop" : 1621315642579,
+    "duration" : 65
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "27814cea4fa2ef40",
+  "name" : "",
+  "time" : {
+    "start" : 1621315729169,
+    "stop" : 1621315729172,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

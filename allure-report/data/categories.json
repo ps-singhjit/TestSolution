@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: this.inputUsername.setValue is not a function",
+      "children" : [ {
+        "name" : "When I login with \"user123\" and \"happycoder123\"",
+        "uid" : "de50397a342a2113",
+        "parentUid" : "83e3a245c0a2c58cf7def9b0833e7059",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621315642514,
+          "stop" : 1621315642579,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome-90.0.4430.212" ]
+      } ],
+      "uid" : "83e3a245c0a2c58cf7def9b0833e7059"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

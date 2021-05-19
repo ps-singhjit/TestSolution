@@ -4,7 +4,8 @@
   "description": "test project",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/wdio wdio.conf.js"
+    "open-allure":"./node_modules/.bin/allure generate ./report/allure-results --clean && allure open",
+    "test": "./node_modules/.bin/wdio wdio.conf.js && npm run open-allure"
   },
   "author": "Paramjit",
   "license": "ISC",

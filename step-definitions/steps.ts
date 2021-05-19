@@ -7,6 +7,7 @@ import SecurePage from '../pageobjects/secure.page';
 
 Given(/^I am on the login page$/, function () {  
   browser.url('E:/VS_Code_Project/TestSolution/LoginApp/index.html');
+  browser.maximizeWindow();
   browser.pause(5000);
   let title = browser.getTitle();
   console.log(title);  

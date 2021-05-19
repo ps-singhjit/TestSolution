@@ -1,0 +1,114 @@
+{
+  "uid" : "de50397a342a2113",
+  "name" : "When I login with \"user123\" and \"happycoder123\"",
+  "fullName" : "Test the login functionality on Login App: Login with correct credentials.When I login with \"user123\" and \"happycoder123\"",
+  "historyId" : "896e519ec80db15ae55694fbe0fcbd21",
+  "time" : {
+    "start" : 1621315642514,
+    "stop" : 1621315642579,
+    "duration" : 65
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TypeError: this.inputUsername.setValue is not a function",
+  "statusTrace" : "TypeError: this.inputUsername.setValue is not a function\n                    at LoginPage.login (E:\\VS_Code_Project\\TestSolution\\pageobjects\\loginpage.ts:43:28)\n                    at World.<anonymous> (E:\\VS_Code_Project\\TestSolution\\step-definitions\\steps.ts:16:13)\n                    at World.executeAsync (E:\\VS_Code_Project\\TestSolution\\node_modules\\@wdio\\utils\\build\\shim.js:136:25)\n                    at World.testFrameworkFnWrapper (E:\\VS_Code_Project\\TestSolution\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: this.inputUsername.setValue is not a function",
+    "statusTrace" : "TypeError: this.inputUsername.setValue is not a function\n                    at LoginPage.login (E:\\VS_Code_Project\\TestSolution\\pageobjects\\loginpage.ts:43:28)\n                    at World.<anonymous> (E:\\VS_Code_Project\\TestSolution\\step-definitions\\steps.ts:16:13)\n                    at World.executeAsync (E:\\VS_Code_Project\\TestSolution\\node_modules\\@wdio\\utils\\build\\shim.js:136:25)\n                    at World.testFrameworkFnWrapper (E:\\VS_Code_Project\\TestSolution\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "getTitle",
+      "time" : {
+        "start" : 1621315642536,
+        "stop" : 1621315642578,
+        "duration" : 42
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: this.inputUsername.setValue is not a function\n                    at LoginPage.login (E:\\VS_Code_Project\\TestSolution\\pageobjects\\loginpage.ts:43:28)\n                    at World.<anonymous> (E:\\VS_Code_Project\\TestSolution\\step-definitions\\steps.ts:16:13)\n                    at World.executeAsync (E:\\VS_Code_Project\\TestSolution\\node_modules\\@wdio\\utils\\build\\shim.js:136:25)\n                    at World.testFrameworkFnWrapper (E:\\VS_Code_Project\\TestSolution\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+      "steps" : [ {
+        "name" : "navigateTo",
+        "time" : {
+          "start" : 1621315642540,
+          "stop" : 1621315642578,
+          "duration" : 38
+        },
+        "status" : "broken",
+        "statusMessage" : "TypeError: this.inputUsername.setValue is not a function\n                    at LoginPage.login (E:\\VS_Code_Project\\TestSolution\\pageobjects\\loginpage.ts:43:28)\n                    at World.<anonymous> (E:\\VS_Code_Project\\TestSolution\\step-definitions\\steps.ts:16:13)\n                    at World.executeAsync (E:\\VS_Code_Project\\TestSolution\\node_modules\\@wdio\\utils\\build\\shim.js:136:25)\n                    at World.testFrameworkFnWrapper (E:\\VS_Code_Project\\TestSolution\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "354737e213cbef1",
+          "name" : "Request",
+          "source" : "354737e213cbef1.json",
+          "type" : "application/json",
+          "size" : 66
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test the login functionality on Login App: Login with correct credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "Test the login functionality on Login App: Login with correct credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I login with \"user123\" and \"happycoder123\""
+  }, {
+    "name" : "package",
+    "value" : "Test the login functionality on Login App: Login with correct credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "de50397a342a2113.json",
+  "parameterValues" : [ "Chrome-90.0.4430.212" ]
+}

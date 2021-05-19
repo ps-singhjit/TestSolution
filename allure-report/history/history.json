@@ -1,0 +1,60 @@
+{
+  "98dd082115a9cf4d84043ab4802f2acd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "608efc99ceb27b5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621315729138,
+        "stop" : 1621315729168,
+        "duration" : 30
+      }
+    } ]
+  },
+  "896e519ec80db15ae55694fbe0fcbd21" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "de50397a342a2113",
+      "status" : "broken",
+      "statusDetails" : "TypeError: this.inputUsername.setValue is not a function",
+      "time" : {
+        "start" : 1621315642514,
+        "stop" : 1621315642579,
+        "duration" : 65
+      }
+    } ]
+  },
+  "407fa01877ea9c9b57778e2ae1379dfe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27814cea4fa2ef40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621315729169,
+        "stop" : 1621315729172,
+        "duration" : 3
+      }
+    } ]
+  }
+}

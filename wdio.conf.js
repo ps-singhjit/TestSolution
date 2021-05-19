@@ -155,7 +155,10 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec',['allure', {outputDir: 'allure-results'}],['cucumberjs-json', { jsonFolder: 'report/', language: 'en' }]],
+    reporters: ['spec',['allure', {outputDir: './report/allure-results',
+    disableWebdriverStepsReporting: false,
+    disableWebdriverScreenshotsReporting: false,}],
+    ['cucumberjs-json', { jsonFolder: 'report/', language: 'en' }]],
 
 
     //

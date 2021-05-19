@@ -1,0 +1,56 @@
+{
+  "uid" : "c855f1f80b3aec52",
+  "name" : "Given I am on the login page",
+  "fullName" : "Test the login functionality on Login App: Login with correct credentials.Given I am on the login page",
+  "historyId" : "98dd082115a9cf4d84043ab4802f2acd",
+  "time" : {
+    "start" : 1621315642497,
+    "stop" : 1621315642513,
+    "duration" : 16
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test the login functionality on Login App: Login with correct credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "Test the login functionality on Login App: Login with correct credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the login page"
+  }, {
+    "name" : "package",
+    "value" : "Test the login functionality on Login App: Login with correct credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c855f1f80b3aec52.json",
+  "parameterValues" : [ "Chrome-90.0.4430.212" ]
+}

@@ -1,0 +1,44 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "When I login with \"user123\" and \"happycoder123\"",
+    "uid" : "de50397a342a2113",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1621315642514,
+      "stop" : 1621315642579,
+      "duration" : 65
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome-90.0.4430.212" ]
+  }, {
+    "name" : "Given I am on the login page",
+    "uid" : "608efc99ceb27b5b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1621315729138,
+      "stop" : 1621315729168,
+      "duration" : 30
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome-90.0.4430.212" ]
+  }, {
+    "name" : "",
+    "uid" : "27814cea4fa2ef40",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1621315729169,
+      "stop" : 1621315729172,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome-90.0.4430.212" ]
+  } ]
+}
